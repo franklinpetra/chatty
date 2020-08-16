@@ -1,5 +1,6 @@
 {
   "name": "covid_tracker",
+  "homepage":"http://www.franklinpetra.com/covid_tracker/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
