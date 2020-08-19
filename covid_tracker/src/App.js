@@ -29,10 +29,9 @@ class App extends React.Component {
       <div className={styles.container}>
         <img className={styles.header} src={ bannerImage } alt="Covid Banner"/>
         <img className={styles.image} style={{mixBlendMode: "multiply"}} src={image} alt="match_distancing"/>
-        
         <Cards data={ data }/>
-        <CountryPicker handleCountryChange={this.handleCountryChange}/>
-        <Chart data={data} country={country}/>
+        <CountryPicker handleCountryChange={ this.handleCountryChange }/>
+        <Chart data={ data } country={ country }/>
       </div>
     );
   }

@@ -17,7 +17,7 @@ body {
 .header {
   max-width: 25em;
   background-color: beige;
-  margin: 2% 0% -5% 0%;
+  margin: .5% 0% -8% 0%;
   filter: rgb(106, 181, 213);
 }
 
